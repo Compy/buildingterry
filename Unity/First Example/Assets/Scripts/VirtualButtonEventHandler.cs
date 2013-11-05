@@ -28,6 +28,7 @@ public class VirtualButtonEventHandler : MonoBehaviour,
     #region PRIVATE_MEMBER_VARIABLES
     
     private GameObject mTeapot;
+	private GameObject myTag;
     private List<Material> mActiveMaterials;
 
     #endregion // PRIVATE_MEMBER_VARIABLES
@@ -47,7 +48,7 @@ public class VirtualButtonEventHandler : MonoBehaviour,
 
         // Get handle to the teapot object
         mTeapot = transform.FindChild("teapot").gameObject;
-
+		myTag = transform.FindChild("donTag").gameObject;
         // The list of active materials
         mActiveMaterials = new List<Material>();
     }
@@ -76,18 +77,26 @@ public class VirtualButtonEventHandler : MonoBehaviour,
         {
             case "red":
                 mActiveMaterials.Add(m_TeapotMaterials[0]);
-                break;
+				myTag.GetComponent<TextMesh>().text = "Please:";;
+//				myTag.GetComponent(TextMesh).text = "now!";
+				break;
 
             case "blue":
                 mActiveMaterials.Add(m_TeapotMaterials[1]);
-                break;
+				myTag.GetComponent<TextMesh>().text = "Donate";;
+
+			break;
 
             case "yellow":
                 mActiveMaterials.Add(m_TeapotMaterials[2]);
+				myTag.GetComponent<TextMesh>().text = "to Terry";;
+
                 break;
 
             case "green":
                 mActiveMaterials.Add(m_TeapotMaterials[3]);
+				myTag.GetComponent<TextMesh>().text = "at UGA";;
+
                 break;
         }
 
@@ -106,7 +115,10 @@ public class VirtualButtonEventHandler : MonoBehaviour,
         {
             return;
         }
+		
+		myTag.GetComponent<TextMesh>().text = "Building Campaign";;
 
+		
         // Remove the material corresponding to this virtual button
         // from the active material list:
         switch (vb.VirtualButtonName)
