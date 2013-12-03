@@ -17,7 +17,7 @@ We encorage people to use, try and have fun!
 
 
 ### How to Install
-The main platform used in this project is an IDE called Unity3d. It is very popular in game development for providing a set of tools that allows developers to quickly deploy virtual environments. In our case we will use Unity3d to model the virtual building and other objecs that will interact with the user. Besides the fact of Unity3d be one of the best IDE for this type of development, it's cross platform and multiportable; which means that can be developed in different Operational Systems (Windows, Mac, Linux,...) and run in several different devices (Android, iOS, webBrowser, Xbox, Wii...). You can have a better overview about it here: http://en.wikipedia.org/wiki/Unity_(game_engine)
+The main platform used in this project is an IDE called Unity3d. It is very popular in game development for providing a set of tools that allows developers to quickly deploy virtual environments. In our case we will use Unity3d to model the virtual building and other objecs that will interact with the user. Besides the fact of Unity3d be one of the best IDE for this type of development, it's cross platform and multiportable; which means that can be developed in different Operational Systems (Windows, Mac, Linux,...) and run in several different devices (Android, iOS, webBrowser, Xbox, Wii...). You can have a better overview about it here: 
 
 Therefore, the first step in preparing the development environment is to download and install Unity3D:
 http://unity3d.com/unity/download 
@@ -37,6 +37,7 @@ A good reference to get familiar with Unity is the following video and the offic
 
 http://www.youtube.com/watch?v=g5QFW12utdU
 
+http://unity3d.com/learn/tutorials/modules/beginner/editor
 http://docs.unity3d.com/Documentation/Manual/UnityBasics.html
 
 
@@ -56,3 +57,5 @@ https://www.vuforia.com/platform
 ### References:
 
 http://en.wikipedia.org/wiki/Computer_graphics_(computer_science)
+http://en.wikipedia.org/wiki/Unity_(game_engine)
+http://en.wikipedia.org/wiki/Utah_Teapot
