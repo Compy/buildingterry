@@ -59,7 +59,9 @@ https://github.com/Compy/buildingterry.git
 
 If you download the zipped file, extract it. If you have it cloned, just keep track of the folder location.
 
-Now, go to Unity3d, click in File -> Open Project. It will launch the Project Wizard, where you can click the "Open Other..." Buttom and select the folder you extract/clone.
+Now, go to Unity3d, click in File -> Open Project. It will launch the Project Wizard, where you can click on the "Open Other..." buttom and select the folder you extract/clone.
+
+
 
 
 
