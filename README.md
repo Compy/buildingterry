@@ -4,7 +4,7 @@ buildingterry
 Building Terry mobile application for MIT program project at UGA.
 
 
-### Introduction
+# Introduction
 This project is intent to develop a mobile application for the Building Terry campaign: http://building.terry.uga.edu/
 Besides offer information about the campaign, the app will provide features to attract donators. One of the main features will be provide the users to interact with a virtual model of the building.
 
@@ -16,7 +16,7 @@ The goal of this tutorial is not to teach about concepts of Computer Graphics or
 We encorage people to use, try and have fun!
 
 
-### How to Install
+# How to Install
 The main platform used in this project is an IDE called Unity3d. It is very popular in game development for providing a set of tools that allows developers to quickly deploy virtual environments. In our case we will use Unity3d to model the virtual building and other objecs that will interact with the user. Besides the fact of Unity3d be one of the best IDE for this type of development, it's cross platform and multiportable; which means that can be developed in different Operational Systems (Windows, Mac, Linux,...) and run in several different devices (Android, iOS, webBrowser, Xbox, Wii...). You can have a better overview about it here: 
 
 Therefore, the first step in preparing the development environment is to download and install Unity3D:
@@ -31,7 +31,7 @@ Once that you have it installed is important to understand some of the core conc
 A short Introduction to Computer Graphics, focused on 3d render, can be find here: 
 http://people.csail.mit.edu/fredo/Depiction/1_Introduction/reviewGraphics.pdf
 
-Once that you get used to the basics of 3D Computer Graphics, it's important to understant how unity handle these elements. This is what makes Unity be so useful! One that programmed 3D Graphics using OpenGL, knows how hard can be implemment what we has been disccussed so far. This is a good incentive for the beginners learn how to use them, becouse not long ago, people had to code such abstract concepts. Instead this painfull process, Unity provides a drag-and-drop interface that make things way easier to develop, but you still need a clear understand about how it manage projects, views, objects,... before we move on.
+After you learn the basics of 3D Computer Graphics, it's important to understant how Unity3d handle these elements. This is what makes Unity so useful! One that programmed 3D Graphics using OpenGL, knows how hard can be implemment what we has been disccussed so far. This is a good incentive for the beginners learn how to use them, becouse not long ago, people had to code such abstract concepts. Now, with Unity3d, we have a drag-and-drop interface that make things way easier to develop, but you still need a clear understand about how it manage projects, views, objects,... before we move on.
 
 A good reference to get familiar with Unity is the following video and the official documentation:
 
@@ -47,8 +47,6 @@ You do not need to install the Vuforia SDK, because it's libraries are integrade
 Take a look at the Developers web site and check what we can archive using Vuforia:
 https://www.vuforia.com/platform
 
-### How to Use
-
 After you have Unity3d installed and you are familiar with it's interface is time to download the project source files.
 
 You can download the files directly on the address:
@@ -59,7 +57,15 @@ https://github.com/Compy/buildingterry.git
 
 If you download the zipped file, extract it. If you have it cloned, just keep track of the folder location.
 
-Now, go to Unity3d, click in File -> Open Project. It will launch the Project Wizard, where you can click on the "Open Other..." buttom and select the folder you extract/clone.
+
+# How to Use
+
+To open the project files, go to Unity3d, click on File -> Open Project. It will launch the Project Wizard, where you can click on the "Open Other..." buttom and select a folder called "First Example" (../buildingterry-master/Unity/First Example)
+You will noticed that Unity will load few Assets and will open the a Scene Called "Vuforia-VirtualButtons". This is the first scenario we have deployed, but this document will be updated once we have more Scenes available.  
+
+## Building and Run
+
+
 
 
 
