@@ -57,6 +57,11 @@ https://github.com/Compy/buildingterry.git
 
 If you download the zipped file, extract it. If you have it cloned, just keep track of the folder location.
 
+##Printing the Target Image
+For this first Example, you will need to print the following image that will be used as the target to place the virtual object:
+https://developer.vuforia.com/sites/default/files/sample-apps/targets/wood.pdf
+You can print it in "black and white" if you preffer.
+
 ### Android Users
 You will need to download and install the AndroidSDK. If you already have it installed, make sure you have the path to it. Otherwise, download the latest version and have it available to the next steps:
 https://developer.android.com/sdk/index.html#download
@@ -72,7 +77,7 @@ https://itunes.apple.com/us/app/xcode/
 To open the project files, go to Unity3d, click on File -> Open Project. It will launch the Project Wizard, where you can click on the "Open Other..." buttom and select a folder called "First Example" (../buildingterry-master/Unity/First Example)
 You will noticed that Unity will load few Assets and will open the a Scene Called "Vuforia-VirtualButtons". This is the first scenario we have deployed, but this document will be updated once we have more Scenes available.
 
-Now that you are familiar with Unity, you realize that by clicking in "play" you should see the app running. However, if you are running on free license, you will not have access to a physical camera until you had the scene built. If you want to see some action, go ahead and run the app in your target device.
+Now that you are familiar with Unity, you realize that by clicking in "play" you should see the app running. However, if you are running on free license, you will not have access to a physical camera until you had the scene built. If you want to see some action, go ahead and follow the steps bellow to run the app in your device.
 
 ## Building and Run
 
@@ -80,7 +85,7 @@ Now that you are familiar with Unity, you realize that by clicking in "play" you
 
 Because our focus will be on mobile devices, this session will focus on how to run the app in the main mobile devices (Android and iOS).
 
-The beginning of this process is very similar: On Unity, you need to click on File-> Building Settings. On the Building Settings Window, you have to make sure the current scene is checked (Vuforia-VirtualButtons.unity in our case) and right Platform is selected (Android or iOS). After had selected the right parameters you can click on "Build and Run". Independent the platform you choose, after hit tell the IDE to Build the app, it will ask you where to save the target files. This step is not really relevant, but would be good you define a pattern for not have files all over the place.
+The beginning of this process is very similar: On Unity, you need to click on File-> Building Settings. On the Building Settings Window, you have to make sure the current scene is checked (Vuforia-VirtualButtons.unity in our case) and right Platform is selected (Android or iOS). After had selected the right parameters you can click on "Build and Run". Independent the platform you choose, after hit tell the IDE to Build the app, it will ask you where to save the built app. This step is not really relevant, but would be good you define a pattern for not have files all over the place.
 
 ### Android
 
@@ -88,7 +93,7 @@ When the IDE finish to build the new app it will ask you to point the Android SD
 
 ### iOS 
 
-If you choose iOS as your target the system will open Xcode and it should finish to load the app in your device. Should be very straigh forward if you are running the latest version, however I had problems liking some libraries. If that happens to you, go to the project folder, building PATH.
+If you choose iOS, the system will open Xcode and it should finish to load the app in your device. Should be very straigh forward if you are running the latest version, however I had problems liking some libraries. If that happens to you, go to the project folder, building PATH.
 
 
 
@@ -100,3 +105,5 @@ If you choose iOS as your target the system will open Xcode and it should finish
 http://en.wikipedia.org/wiki/Computer_graphics_(computer_science)
 http://en.wikipedia.org/wiki/Unity_(game_engine)
 http://en.wikipedia.org/wiki/Utah_Teapot
+https://developer.vuforia.com/resources/sample-apps/virtual-button-sample-app
+
