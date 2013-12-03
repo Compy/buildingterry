@@ -57,11 +57,11 @@ https://github.com/Compy/buildingterry.git
 
 If you download the zipped file, extract it. If you have it cloned, just keep track of the folder location.
 
-## Android Users
+### Android Users
 You will need to download and install the AndroidSDK. If you already have it installed, make sure you have the path to it. Otherwise, download the latest version and have it available to the next steps:
 https://developer.android.com/sdk/index.html#download
 
-## iOS Users
+### iOS Users
 If you are running an Mac, you already have the Xcode installed. Just make sure you are running the latest update of it.
 If you are a PC user, but would like to run this app in a iOS device (iphone, iPad,...) will need to install Xcode:
 https://itunes.apple.com/us/app/xcode/
