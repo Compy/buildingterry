@@ -96,6 +96,9 @@ When the IDE finish to build the new app it will ask you to point the Android SD
 If you choose iOS, the system will open Xcode and it should finish to load the app in your device. Should be very straigh forward if you are running the latest version, however I had problems liking some libraries. If that happens to you, go to the project folder, building PATH.
 
 
+##Interacting with the building
+
+
 
 
 
