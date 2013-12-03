@@ -21,7 +21,6 @@ The main platform used in this project is an IDE called Unity3d. It is very popu
 
 Therefore, the first step in preparing the development environment is to download and install Unity3D:
 http://unity3d.com/unity/download 
-`note: Unity is available in a free or pro version. In our case we will use the free version which has some limitations regarding shadowing and target platforms, but this won't be an issue for our deployment.` 
 
 Once that you have it installed is important to understand some of the core concepts of the IDE. The modern 3d Computer Graphic Software relies in three basic elements and it's attributes:
 
@@ -41,9 +40,11 @@ http://www.youtube.com/watch?v=g5QFW12utdU
 http://docs.unity3d.com/Documentation/Manual/UnityBasics.html
 
 
+On the top of Unity 3D we will be using an SDK to handle the Augmented Reallity features, called Vuforia. It will basically replace the ordinary Camera Object with a special type of Camera Object that will allows us to project Virtual Objects (the Building) in images from the real world collected by a Real Camera. This is another advanced concept that involves a lot of Math and heavy coding that we have a wonderful piece of software to deal with. Once more, we just need to understand how to use it. 
+You do not need to install the Vuforia SDK, because it's libraries are integraded with this repository. The next session will discuss about how to use it, but it's good to check some references to get used to it.
 
-
-
+Take a look at the Developers web site and check what we can archive using Vuforia:
+https://www.vuforia.com/platform
 
 ### How to Use
 
