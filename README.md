@@ -82,11 +82,11 @@ Because our focus will be on mobile devices, this session will focus on how to r
 
 The beginning of this process is very similar: On Unity, you need to click on File-> Building Settings. On the Building Settings Window, you have to make sure the current scene is checked (Vuforia-VirtualButtons.unity in our case) and right Platform is selected (Android or iOS). After had selected the right parameters you can click on "Build and Run". Independent the platform you choose, after hit tell the IDE to Build the app, it will ask you where to save the target files. This step is not really relevant, but would be good you define a pattern for not have files all over the place.
 
-# Android
+### Android
 
 When the IDE finish to build the new app it will ask you to point the Android SDK folder. There is no much complexybility here and basically everything will be done behind the scenes for you by the SDK. At this point the application should be running in your android device.
 
-# iOS 
+### iOS 
 
 If you choose iOS as your target the system will open Xcode and it should finish to load the app in your device. Should be very straigh forward if you are running the latest version, however I had problems liking some libraries. If that happens to you, go to the project folder, building PATH.
 
@@ -95,7 +95,7 @@ If you choose iOS as your target the system will open Xcode and it should finish
 
 
 
-### References:
+# References:
 
 http://en.wikipedia.org/wiki/Computer_graphics_(computer_science)
 http://en.wikipedia.org/wiki/Unity_(game_engine)
