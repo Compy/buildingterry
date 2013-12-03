@@ -21,6 +21,7 @@ The main platform used in this project is an IDE called Unity3d. It is very popu
 
 Therefore, the first step in preparing the development environment is to download and install Unity3D:
 http://unity3d.com/unity/download 
+`note: Unity is available in a free or pro version. In our case we will use the free version which has some limitations regarding shadowing and target platforms, but this won't be an issue for our deployment.` 
 
 Once that you have it installed is important to understand some of the core concepts of the IDE. The modern 3d Computer Graphic Software relies in three basic elements and it's attributes:
 
