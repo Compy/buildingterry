@@ -57,13 +57,34 @@ https://github.com/Compy/buildingterry.git
 
 If you download the zipped file, extract it. If you have it cloned, just keep track of the folder location.
 
+## Android Users
+You will need to download and install the AndroidSDK. If you already have it installed, make sure you have the path to it. Otherwise, download the latest version and have it available to the next steps:
+https://developer.android.com/sdk/index.html#download
+
+## iOS Users
+If you are running an Mac, you already have the Xcode installed. Just make sure you are running the latest update of it.
+If you are a PC user, but would like to run this app in a iOS device (iphone, iPad,...) will need to install Xcode:
+https://itunes.apple.com/us/app/xcode/
+
 
 # How to Use
 
 To open the project files, go to Unity3d, click on File -> Open Project. It will launch the Project Wizard, where you can click on the "Open Other..." buttom and select a folder called "First Example" (../buildingterry-master/Unity/First Example)
-You will noticed that Unity will load few Assets and will open the a Scene Called "Vuforia-VirtualButtons". This is the first scenario we have deployed, but this document will be updated once we have more Scenes available.  
+You will noticed that Unity will load few Assets and will open the a Scene Called "Vuforia-VirtualButtons". This is the first scenario we have deployed, but this document will be updated once we have more Scenes available.
+
+Now that you are familiar with Unity, you realize that by clicking in "play" you should see the app running. However, if you are running on free license, you will not have access to a physical camera until you had the scene built. If you want to see some action, go ahead and run the app in your target device.
 
 ## Building and Run
+
+Because our focus will be on mobile devices, this session will focus on how to run the app in the main mobile devices (Android and iOS).
+
+The beginning of this process is very similar: On Unity, you need to click on File-> Building Settings. On the Building Settings Window, you have to make sure the current scene is checked (Vuforia-VirtualButtons.unity in our case) and right Platform is selected (Android or iOS). After had selected the right parameters you can click on "Build and Run".
+
+# Android
+`make sure you have your device plugged on the compuer.`
+If you choose Android as your target, after you click on "Build and Run" it will ask you where you would like to save the binary file. This step is not really relevant, but would be good you define a pattern for not have files all over the place.
+When the IDE finish to build the new app it will ask you to point the Android SDK folder.
+
 
 
 
