@@ -76,28 +76,25 @@ public class VirtualButtonEventHandler : MonoBehaviour,
         switch (vb.VirtualButtonName)
         {
             case "red":
-                mTeapot.transform.Rotate(90,90,90);
-//				myTag.GetComponent<TextMesh>().text = "Please:";;
-//				myTag.GetComponent(TextMesh).text = "now!";
+                //mTeapot.transform.Rotate(90,90,90);
+				myTag.GetComponent<TextMesh>().text = "Please:";;
 				break;
 
             case "blue":
 //                mActiveMaterials.Add(m_TeapotMaterials[1]);
-//				myTag.GetComponent<TextMesh>().text = "Donate";;
-			                mTeapot.transform.Rotate(180,180,180);
+				myTag.GetComponent<TextMesh>().text = "Donate";;
+//			                mTeapot.transform.Rotate(180,180,180);
 
 			break;
 
             case "yellow":
 //                mActiveMaterials.Add(m_TeapotMaterials[2]);
-//				myTag.GetComponent<TextMesh>().text = "to Terry";;
-			                mTeapot.transform.Rotate(270,270,270,);
+				myTag.GetComponent<TextMesh>().text = "to Terry";;
                 break;
 
             case "green":
 //                mActiveMaterials.Add(m_TeapotMaterials[3]);
-//				myTag.GetComponent<TextMesh>().text = "at UGA";;
-			                mTeapot.transform.Rotate(90,90,90);
+				myTag.GetComponent<TextMesh>().text = "at UGA";;
                 break;
         }
 
