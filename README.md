@@ -81,7 +81,7 @@ Because our focus will be on mobile devices, this session will focus on how to r
 The beginning of this process is very similar: On Unity, you need to click on File-> Building Settings. On the Building Settings Window, you have to make sure the current scene is checked (Vuforia-VirtualButtons.unity in our case) and right Platform is selected (Android or iOS). After had selected the right parameters you can click on "Build and Run".
 
 # Android
-`make sure you have your device plugged on the compuer.`
+`note: make sure you have your device plugged on the computer.`
 If you choose Android as your target, after you click on "Build and Run" it will ask you where you would like to save the binary file. This step is not really relevant, but would be good you define a pattern for not have files all over the place.
 When the IDE finish to build the new app it will ask you to point the Android SDK folder.
 
