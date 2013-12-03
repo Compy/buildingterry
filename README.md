@@ -29,6 +29,7 @@ Once that you have it installed is important to understand some of the core conc
 - Camera: ViewPoint, Projection, Field of View, Depth,...
 
 A short Introduction to Computer Graphics, focused on 3d render, can be find here: 
+
 http://people.csail.mit.edu/fredo/Depiction/1_Introduction/reviewGraphics.pdf
 
 After you learn the basics of 3D Computer Graphics, it's important to understant how Unity3d handle these elements. This is what makes Unity so useful! One that programmed 3D Graphics using OpenGL, knows how hard can be implemment what we has been disccussed so far. This is a good incentive for the beginners learn how to use them, becouse not long ago, people had to code such abstract concepts. Now, with Unity3d, we have a drag-and-drop interface that make things way easier to develop, but you still need a clear understand about how it manage projects, views, objects,... before we move on.
@@ -59,8 +60,9 @@ If you download the zipped file, extract it. If you have it cloned, just keep tr
 
 ##Printing the Target Image
 For this first Example, you will need to print the following image that will be used as the target to place the virtual object:
+
 https://developer.vuforia.com/sites/default/files/sample-apps/targets/wood.pdf
-You can print it in "black and white" if you preffer.
+`You can print it in "black and white" if you preffer.`
 
 ### Android Users
 You will need to download and install the AndroidSDK. If you already have it installed, make sure you have the path to it. Otherwise, download the latest version and have it available to the next steps:
@@ -97,6 +99,15 @@ If you choose iOS, the system will open Xcode and it should finish to load the a
 
 
 ##Interacting with the building
+
+At this point you should be able to see on the device screen the images from its camera. Just place the target you previously printed and you should see the Building on the Target. If you don't have it printed, you can open the file on the computer monitor and the app should recognize it as well.
+
+You will see that by overlapping the "buttons" on the real world you should change the label beside the building.
+
+# Modifying
+
+Find the Script above and see how we change the text on the virtual label:
+https://github.com/Compy/buildingterry/blob/master/Unity/First%20Example/Assets/Scripts/VirtualButtonEventHandler.cs
 
 
 
