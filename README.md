@@ -13,7 +13,7 @@ All the code generated within this project and part of the tools needed are open
 
 The goal of this tutorial is not to teach about concepts of Computer Graphics or Virtual Reality, but instruct people how to reproduce the development environment used in the project. You don't need to be advanced in Computer Science to follow this tutorial, however it helps to know some theory. Throughout  this document there will be links that will point you to the theory behind some principies. 
 
-We encorage people to use and try!
+We encorage people to use, try and have fun!
 
 
 ### How to Install
