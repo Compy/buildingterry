@@ -24,17 +24,19 @@ http://unity3d.com/unity/download
 
 Once that you have it installed is important to understand some of the core concepts of the IDE. The modern 3d Computer Graphic Software relies in three basic elements and it's attributes:
 
-1) Object: Position, Rotation, Polygonal Mesh, Texture, Scale, Behavior (scripting)...
-2) Light: Position, Intensity, Color, Direction,...
-3) Camera: ViewPoint, Projection, Field of View, Depth,...
+- Object: Position, Rotation, Polygonal Mesh, Texture, Scale, Behavior (scripting)...
+- Light: Position, Intensity, Color, Direction,...
+- Camera: ViewPoint, Projection, Field of View, Depth,...
 
-A short Introduction to Computer Graphics, focused on 3d render, can be find here: http://people.csail.mit.edu/fredo/Depiction/1_Introduction/reviewGraphics.pdf
+A short Introduction to Computer Graphics, focused on 3d render, can be find here: 
+http://people.csail.mit.edu/fredo/Depiction/1_Introduction/reviewGraphics.pdf
 
 Once that you get used to the basics of 3D Computer Graphics, it's important to understant how unity handle these elements. This is what makes Unity be so useful! One that programmed 3D Graphics using OpenGL, knows how hard can be implemment what we has been disccussed so far. This is a good incentive for the beginners learn how to use them, becouse not long ago, people had to code such abstract concepts. Instead this painfull process, Unity provides a drag-and-drop interface that make things way easier to develop, but you still need a clear understand about how it manage projects, views, objects,... before we move on.
 
 A good reference to get familiar with Unity is the following video and the official documentation:
 
 http://www.youtube.com/watch?v=g5QFW12utdU
+
 http://docs.unity3d.com/Documentation/Manual/UnityBasics.html
 
 
