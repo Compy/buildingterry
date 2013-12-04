@@ -1,4 +1,4 @@
-buildingterry
+Building Terry
 =============
 
 Building Terry mobile application for MIT program project at UGA.
