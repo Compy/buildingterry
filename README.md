@@ -95,7 +95,11 @@ When the IDE finish to build the new app it will ask you to point the Android SD
 
 ### iOS 
 
-If you choose iOS, the system will open Xcode and it should finish to load the app in your device. Should be very straigh forward if you are running the latest version, however I had problems liking some libraries. If that happens to you, go to the project folder, building PATH.
+If you choose iOS, the system will open Xcode and it should finish to load the app in your device. Should be very straigh forward if you are running the latest version, however I had problems liking some libraries. If that happens, go you will need to follow the steps below to fix the PATH:
+
+To change this setting in Xcode 4.5, click on the project in the Project Navigator (left pane, first tab) > Project - Unity-iPhone > Build Settings > Header Search Paths. Use the search bar in Build Settings to find the Header Search Paths.
+
+source: http://answers.unity3d.com/questions/184650/qcar-build-fail.html
 
 
 ##Interacting with the building
