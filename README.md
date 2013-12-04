@@ -6,12 +6,12 @@ Building Terry mobile application for MIT program project at UGA.
 
 # Introduction
 This project is intent to develop a mobile application for the Building Terry campaign: http://building.terry.uga.edu/
-Besides offer information about the campaign, the app will provide features to attract donators. One of the main features will be provide the users to interact with a virtual model of the building.
+Besides offer information about the campaign, the app will provide features to attract donators. One of the main features will be allow users to interact with a virtual model of the building.
 
 To archive our goal we started evaluating some of the solutions available to incorporate virtual elements of Augmented Reality to our project. The following document aims to instruct about how to reproduce the development environment used  and explore the source code available in this repository. 
-All the code generated within this project and part of the tools needed are opensource. The other tools that requires a license can be used free of charge for our purpose.
+All the code generated within this project is opensource. The other tools that requires a license can be used free of charge for our purpose.
 
-The goal of this tutorial is not to teach about concepts of Computer Graphics or Virtual Reality, but instruct people how to reproduce the development environment used in the project. You don't need to be advanced in Computer Science to follow this tutorial, however it helps to know some theory. Throughout  this document there will be links that will point you to the theory behind some principies. 
+The goal of this tutorial is not to teach about concepts of Computer Graphics or Virtual Reality, but instruct people how to reproduce the development environment used in the project. You don't need to be advanced in Computer Science to follow this tutorial, however it helps to know some theory. Throughout  this document there are links pointing to the theory behind some principies. 
 
 We encorage people to use, try and have fun!
 
