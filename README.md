@@ -16,7 +16,7 @@ https://github.com/Compy/buildingterry/wiki/_pages
 
 # Known Bugs:
 
-Android_ with you are running android 4.x and the camera/targets are not appearing on the right spots, check out if you are running the right version of Unity3d ( < 4.1)
+Android_ if you are running android 4.x and the camera/targets are not appearing on the right spots, check out if you are running the right version of Unity3d ( < 4.1)
 
 iOS_ are you having a hardtime with xCode while building the app for iOS? check if this link out:
 http://answers.unity3d.com/questions/184650/qcar-build-fail.html
