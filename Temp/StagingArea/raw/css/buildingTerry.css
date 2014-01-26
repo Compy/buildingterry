@@ -1,0 +1,57 @@
+.emergency {
+border: 1px solid #ed1c24 /*{a-bar-border}*/;
+background: #ed1c24 /*{a-bar-background-color}*/;
+color: #ffffff /*{a-bar-color}*/;
+font-weight: bold;
+text-shadow: 0 /*{a-bar-shadow-x}*/ 1px /*{a-bar-shadow-y}*/ 0 /*{a-bar-shadow-radius}*/ #444444 /*{a-bar-shadow-color}*/;
+background-image: -webkit-gradient(linear, left top, left bottom, from( #FF1e27 /*{a-bar-background-start}*/), to( #d51920 /*{a-bar-background-end}*/));
+background-image: -webkit-linear-gradient( #FF1e27 /*{a-bar-background-start}*/, #d51920 /*{a-bar-background-end}*/);
+background-image: -moz-linear-gradient( #FF1e27 /*{a-bar-background-start}*/, #d51920 /*{a-bar-background-end}*/);
+background-image: -ms-linear-gradient( #FF1e27 /*{a-bar-background-start}*/, #d51920 /*{a-bar-background-end}*/);
+background-image: -o-linear-gradient( #FF1e27 /*{a-bar-background-start}*/, #d51920 /*{a-bar-background-end}*/);
+background-image: linear-gradient( #FF1e27 /*{a-bar-background-start}*/, #d51920 /*{a-bar-background-end}*/);
+}
+
+.center {
+    margin: 0 auto;
+    text-align: center;
+}
+
+#weather2{
+
+  font: 13px 'Open Sans', "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  margin: 0px auto;
+  height: 1500px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#attribution{
+	padding-top: 30px;
+}
+
+#weather2 p {
+  margin: 0 0 8px;
+  color: black; /*rgb(215, 228, 189);*/
+  font-size: 1em;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+#weather2 h2 {
+  margin: 0 0 8px;
+  color: black; /*rgb(255, 154, 47);*/
+  font-size: 8em;
+  font-weight: 200;
+  text-align: center;
+}
+
+#weather2 h3 {
+  margin: 0 0 8px;
+  color: black; 
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+
+}
